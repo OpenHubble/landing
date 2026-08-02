@@ -147,7 +147,7 @@ export default function Home() {
               rel="noreferrer"
               className="flex items-center gap-1 text-slate-700 transition hover:text-black"
             >
-              GitHub ↗
+              GitHub
             </a>
           </nav>
         </div>

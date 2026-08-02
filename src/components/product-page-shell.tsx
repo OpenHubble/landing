@@ -48,7 +48,6 @@ export function ProductPageShell({ accent, children }: ProductPageShellProps) {
         background: `radial-gradient(circle at top, ${accent}0D 0%, #F8FAFC 45%)`,
       }}
     >
-      {/* Sticky Header Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
           <Link href="/" className="flex items-center gap-3 group">
@@ -66,9 +65,7 @@ export function ProductPageShell({ accent, children }: ProductPageShellProps) {
             </span>
           </Link>
 
-          {/* Right Navigation Controls */}
           <nav className="flex items-center gap-6 text-sm font-semibold text-slate-600">
-            {/* Products Dropdown */}
             <div className="relative group">
               <button className="flex items-center gap-1.5 py-1 text-slate-700 transition hover:text-black">
                 Products
@@ -113,23 +110,20 @@ export function ProductPageShell({ accent, children }: ProductPageShellProps) {
               </div>
             </div>
 
-            {/* GitHub Link */}
             <a
               href="https://github.com/OpenHubble"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-1 text-slate-700 transition hover:text-black"
             >
-              GitHub ↗
+              GitHub
             </a>
           </nav>
         </div>
       </header>
 
-      {/* Main Content Area */}
       <main className="mx-auto max-w-6xl px-6 py-12 lg:px-8">{children}</main>
 
-      {/* Footer */}
       <footer id="contact" className="mt-20 border-t border-slate-200 bg-white">
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 lg:flex-row lg:justify-between lg:px-8">
           <div>
@@ -190,7 +184,7 @@ export function ProductPageShell({ accent, children }: ProductPageShellProps) {
                   rel="noreferrer"
                   className="hover:text-slate-900 transition"
                 >
-                  GitHub ↗
+                  GitHub
                 </a>
               </div>
             </div>
