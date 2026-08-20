@@ -15,6 +15,7 @@ const productsList = [
   { name: "Metrics", href: "/products/metrics", accent: "#3B82F6" },
   { name: "Uptime", href: "/products/uptime", accent: "#10B981" },
   { name: "Analytics", href: "/products/analytics", accent: "#8B5CF6" },
+  { name: "Whisper", href: "/products/whisper", accent: "#F59E0B" },
 ];
 
 function getShellConfig(accent: string): ProductPageShellConfig {
@@ -29,6 +30,13 @@ function getShellConfig(accent: string): ProductPageShellConfig {
     return {
       accent,
       productName: "Analytics",
+    };
+  }
+
+  if (accent.toUpperCase() === "#F59E0B") {
+    return {
+      accent,
+      productName: "Whisper",
     };
   }
 
@@ -170,6 +178,16 @@ export function ProductPageShell({ accent, children }: ProductPageShellProps) {
                   }}
                 >
                   Analytics
+                </Link>
+                <Link
+                  href="/products/whisper"
+                  className="font-medium hover:underline"
+                  style={{
+                    color:
+                      accent.toUpperCase() === "#F59E0B" ? accent : "#64748B",
+                  }}
+                >
+                  Whisper
                 </Link>
               </div>
             </div>
