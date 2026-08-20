@@ -98,7 +98,7 @@ export default function WhisperPage() {
         <div className="max-w-3xl">
           <div className="mb-6 flex flex-wrap gap-2">
             <span className="rounded-full border border-amber-200 bg-amber-100 px-3.5 py-1 text-xs font-bold text-amber-900">
-              Coming Soon
+              Launching Oct, 2027
             </span>
 
             <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-800 shadow-sm">
@@ -139,7 +139,7 @@ export default function WhisperPage() {
             </a>
 
             <span className="inline-flex cursor-not-allowed items-center rounded-full border border-slate-200 bg-slate-50 px-6 py-3.5 text-sm font-semibold text-slate-500">
-              Service Coming Soon
+              Service Available October 2027
             </span>
           </div>
         </div>
