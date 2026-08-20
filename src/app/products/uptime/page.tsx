@@ -59,7 +59,7 @@ export default function UptimePage() {
         <div className="max-w-3xl">
           <div className="mb-6 flex flex-wrap gap-2">
             <span className="rounded-full bg-emerald-100 px-3.5 py-1 text-xs font-bold text-emerald-900 border border-emerald-200">
-              Launching October 1, 2026
+              Launching Spring, 2027
             </span>
             <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-800 shadow-sm">
               Status Pages
@@ -92,9 +92,9 @@ export default function UptimePage() {
             >
               Explore Capabilities
             </a>
-            <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-6 py-3.5 text-sm font-semibold text-slate-500 cursor-not-allowed">
-              Console Available Oct 1, 2026
-            </span>
+            {/* <span className="inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-6 py-3.5 text-sm font-semibold text-slate-500 cursor-not-allowed">
+              Service Available Spring 2027
+            </span> */}
           </div>
         </div>
       </section>
