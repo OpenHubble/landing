@@ -22,6 +22,13 @@ const products = [
     accent: "#8B5CF6",
     href: "/products/analytics",
   },
+  {
+    name: "Whisper",
+    description:
+      "VoIP monitoring platform for SIP infrastructure call quality, trunks and service health.",
+    accent: "#F59E0B",
+    href: "/products/whisper",
+  },
 ];
 
 const features = [
@@ -49,8 +56,8 @@ const features = [
 
 const roadmap = [
   { label: "Current", items: ["Metrics"] },
-  { label: "Coming Soon", items: ["Uptime", "Analytics"] },
-  { label: "Future", items: ["Logs", "Tracing", "Events", "AI"] },
+  { label: "Coming Soon", items: ["Whisper", "Analytics"] },
+  { label: "Future", items: ["Uptime", "AI"] },
 ];
 
 function SectionHeading({
@@ -220,6 +227,11 @@ export default function Home() {
                   accent: "#8B5CF6",
                   detail:
                     "Privacy-friendly insight collection for real products.",
+                },
+                {
+                  title: "Whisper",
+                  accent: "#F59E0B",
+                  detail: "Monitor SIP infrastructure and voice service health",
                 },
               ].map((item) => (
                 <div
@@ -442,6 +454,12 @@ export default function Home() {
                   className="font-medium hover:text-slate-900 transition"
                 >
                   Analytics
+                </Link>
+                <Link
+                  href="/products/whisper"
+                  className="font-medium hover:text-slate-900 transition"
+                >
+                  Whisper
                 </Link>
               </div>
             </div>

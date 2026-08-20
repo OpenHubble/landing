@@ -37,10 +37,25 @@ const steps = [
 const technologyGroups = [
   {
     title: "Backend",
-    items: ["FastAPI", "SQLAlchemy", "PostgreSQL", "REST API"],
+    items: [
+      "FastAPI",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "TimescaleDB",
+      "Redis",
+      "RabbitMQ",
+      "Kafka",
+      "Celery",
+    ],
   },
-  { title: "Frontend", items: ["Next.js", "TypeScript", "Tailwind CSS"] },
-  { title: "Agent", items: ["Python", "Systemd", "Async Collectors"] },
+  {
+    title: "Frontend",
+    items: ["Next.js", "TypeScript", "Material UI"],
+  },
+  {
+    title: "Agent",
+    items: ["Python", "Systemd", "Async Collectors", "Plugin driven"],
+  },
 ];
 
 const openSourceRepos = [
